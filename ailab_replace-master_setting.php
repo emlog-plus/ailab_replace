@@ -30,7 +30,7 @@ function plugin_setting_view() {
 			}
 		}
 		ailab_replace_updateCache();
-		emMsg("执行成功！","plugin.php?plugin=ailab_replace");
+		emMsg("执行成功！","plugin.php?plugin=ailab_replace-master");
 	}else{
 		include(EMLOG_ROOT . '/content/plugins/ailab_replace-master/ailab_replace-master_setting_view.php');
 	}
